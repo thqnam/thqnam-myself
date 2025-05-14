@@ -1,5 +1,5 @@
 ---
-title: Markdown Examples
+title: Markdown Examples - My 1st Post
 date: 2025/5/14
 description: View examples of all possible Markdown options.
 tag: web development

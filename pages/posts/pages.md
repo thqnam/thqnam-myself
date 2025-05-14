@@ -1,5 +1,5 @@
 ---
-title: Next.js Pages
+title: Next.js Pages - My 2nd Post
 date: 2025/5/14
 description: Learn more about Next.js pages.
 tag: web development

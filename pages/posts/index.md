@@ -1,6 +1,6 @@
 ---
 type: posts
-title: Posts
+title: THQNAM | My Posts
 date: 2025-05-14
 ---
 

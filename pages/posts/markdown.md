@@ -6,7 +6,7 @@ tag: web development
 author: THQNAM
 ---
 
-# Markdown Examples
+## Markdown Examples
 
 ## h2 Heading
 
@@ -20,9 +20,9 @@ author: THQNAM
 
 ## Emphasis
 
-**This is bold text**
+This is **bold text**
 
-_This is italic text_
+### This is italic text
 
 ~~Strikethrough~~
 
@@ -48,7 +48,7 @@ Ordered
 
 Inline `code`
 
-```
+```jsx
 export default function Nextra({ Component, pageProps }) {
   return (
     <>

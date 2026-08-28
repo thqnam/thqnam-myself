@@ -27,14 +27,17 @@ export default async function TagPage({
   params: Promise<{ tag: string }>;
 }) {
   const { tag } = await params;
-  const matchingPosts = posts.filter((post) => post.tags.includes(tag));
+  const decodedTag = decodeURIComponent(tag);
+  const matchingPosts = posts.filter((post) =>
+    post.tags.includes(decodedTag),
+  );
 
   return (
     <div className="tag-page">
       <p className="back-link">
         <Link href="/posts">← All posts</Link>
       </p>
-      <h1>Posts Tagged with “{tag}”</h1>
+      <h1>Posts Tagged with “{decodedTag}”</h1>
       <div className="post-list">
         {matchingPosts.map((post) => (
           <article className="post-item" key={post.route}>

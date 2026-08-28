@@ -1,3 +1,4 @@
+import "../styles/main.css";
 import type { ReactNode } from "react";
 
 export default function RootLayout({

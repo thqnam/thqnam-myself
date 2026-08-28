@@ -33,7 +33,7 @@ export default function RootLayout({
                 {new Date().getFullYear()}
               </time>{" "}
               © Thiều Huỳnh Quang Nam.
-              <Link href="/feed.xml">RSS</Link>
+              <Link href="https://vercel.com/">Vercel</Link>
             </small>
           </footer>
         </div>

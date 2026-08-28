@@ -219,6 +219,22 @@ img.next-image {
   color: #69778c;
 }
 
+.post-tag {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 4px 9px;
+  border: 1px solid #dbe3ec;
+  border-radius: 4px;
+  background: #f8fafc;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.back-link {
+  margin: 0 0 24px;
+  font-size: 0.9rem;
+}
+
 .post-header p {
   margin: 0 0 10px;
 }
